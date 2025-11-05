@@ -1,0 +1,13 @@
+
+List = [10, 21, 4, 45, 66, 93]
+numOfOdd = 0
+numOfEven = 0
+
+for i in List:
+    if i % 2 == 0:
+        numOfEven += 1
+    else:
+        numOfOdd += 1
+        
+print("Number of Odd:", numOfEven, "\n")
+print("Number of Even:", numOfOdd,)
